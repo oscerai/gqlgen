@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/_examples/federation/products/graph/generated"
-	"github.com/99designs/gqlgen/_examples/federation/products/graph/model"
+	"github.com/oscerai/gqlgen/_examples/federation/products/graph/generated"
+	"github.com/oscerai/gqlgen/_examples/federation/products/graph/model"
 )
 
 // FindManufacturerByID is the resolver for the findManufacturerByID field.

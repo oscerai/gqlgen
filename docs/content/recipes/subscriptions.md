@@ -39,9 +39,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/oscerai/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/graphql/handler/transport"
+	"github.com/oscerai/gqlgen/graphql/playground"
 	"github.com/example/test/graph"
 	"github.com/example/test/graph/generated"
 )
@@ -104,7 +104,7 @@ type Subscription {
 
 ## Implementing your Resolver
 
-After regenerating your code with `go run github.com/99designs/gqlgen generate` you'll find a
+After regenerating your code with `go run github.com/oscerai/gqlgen generate` you'll find a
 new resolver for your subscription. It will look like any other resolver, except it expects
 a `<-chan *model.Time` (or whatever your type is). This is a
 [channel](https://go.dev/tour/concurrency/2). Channels in Go are used to send objects to a
@@ -186,9 +186,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/oscerai/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/graphql/handler/transport"
+	"github.com/oscerai/gqlgen/graphql/playground"
 	"github.com/example/test/graph"
 	"github.com/example/test/graph/generated"
 )

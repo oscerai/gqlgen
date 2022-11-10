@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/99designs/gqlgen/_examples/fileupload/model"
-	gqlclient "github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/oscerai/gqlgen/_examples/fileupload/model"
+	gqlclient "github.com/oscerai/gqlgen/client"
+	"github.com/oscerai/gqlgen/graphql"
+	"github.com/oscerai/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 )
 

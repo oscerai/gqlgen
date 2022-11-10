@@ -7,15 +7,15 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/oscerai/gqlgen/graphql/handler/extension"
+	"github.com/oscerai/gqlgen/graphql/handler/transport"
 
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/oscerai/gqlgen/graphql/playground"
 
-	"github.com/99designs/gqlgen/_examples/fileupload"
-	"github.com/99designs/gqlgen/_examples/fileupload/model"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/_examples/fileupload"
+	"github.com/oscerai/gqlgen/_examples/fileupload/model"
+	"github.com/oscerai/gqlgen/graphql"
+	"github.com/oscerai/gqlgen/graphql/handler"
 )
 
 func main() {

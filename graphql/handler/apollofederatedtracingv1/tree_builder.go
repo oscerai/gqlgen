@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/apollofederatedtracingv1/generated"
+	"github.com/oscerai/gqlgen/graphql"
+	"github.com/oscerai/gqlgen/graphql/handler/apollofederatedtracingv1/generated"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

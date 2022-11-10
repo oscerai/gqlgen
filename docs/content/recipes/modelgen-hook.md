@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin/modelgen"
+	"github.com/oscerai/gqlgen/api"
+	"github.com/oscerai/gqlgen/codegen/config"
+	"github.com/oscerai/gqlgen/plugin/modelgen"
 )
 
 // Defining mutation function
@@ -90,9 +90,9 @@ import (
 	"github.com/vektah/gqlparser/v2/ast"
 	"os"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin/modelgen"
+	"github.com/oscerai/gqlgen/api"
+	"github.com/oscerai/gqlgen/codegen/config"
+	"github.com/oscerai/gqlgen/plugin/modelgen"
 )
 
 // Defining mutation function

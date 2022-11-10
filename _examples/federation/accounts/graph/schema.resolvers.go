@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/_examples/federation/accounts/graph/generated"
-	"github.com/99designs/gqlgen/_examples/federation/accounts/graph/model"
+	"github.com/oscerai/gqlgen/_examples/federation/accounts/graph/generated"
+	"github.com/oscerai/gqlgen/_examples/federation/accounts/graph/model"
 )
 
 // Me is the resolver for the me field.

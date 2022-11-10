@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/templates"
+	"github.com/oscerai/gqlgen/codegen"
+	"github.com/oscerai/gqlgen/codegen/templates"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

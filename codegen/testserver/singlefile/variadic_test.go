@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/client"
+	"github.com/oscerai/gqlgen/graphql/handler"
 )
 
 func TestVariadic(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/_examples/federation/reviews/graph"
-	"github.com/99designs/gqlgen/_examples/federation/reviews/graph/generated"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/debug"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/oscerai/gqlgen/_examples/federation/reviews/graph"
+	"github.com/oscerai/gqlgen/_examples/federation/reviews/graph/generated"
+	"github.com/oscerai/gqlgen/graphql/handler"
+	"github.com/oscerai/gqlgen/graphql/handler/debug"
+	"github.com/oscerai/gqlgen/graphql/playground"
 )
 
 const defaultPort = "4003"

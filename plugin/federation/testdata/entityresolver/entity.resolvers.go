@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/99designs/gqlgen/plugin/federation/testdata/entityresolver/generated"
+	"github.com/oscerai/gqlgen/plugin/federation/testdata/entityresolver/generated"
 )
 
 // FindHelloByName is the resolver for the findHelloByName field.

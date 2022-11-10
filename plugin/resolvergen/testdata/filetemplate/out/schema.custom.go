@@ -6,7 +6,7 @@ package customresolver
 import (
 	"context"
 
-	customresolver "github.com/99designs/gqlgen/plugin/resolvergen/testdata/singlefile/out"
+	customresolver "github.com/oscerai/gqlgen/plugin/resolvergen/testdata/singlefile/out"
 )
 
 // Resolver is the resolver for the resolver field.
